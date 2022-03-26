@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ENTITY amp "&amp;">
+<!ENTITY lt "&lt;">
+<!ENTITY gt "&gt;">
+<!ENTITY quot "&quot;">
+<!ENTITY apos "&apos;">
+<!ELEMENT employees (employee+)>
+<!ELEMENT employee (employeeNumber, employeeName, employeeID)>
+<!ELEMENT employeeNumber (ANY)>
+<!ELEMENT employeeName (#PCDATA)>
+<!ELEMENT employeeID (#PCDATA)>
+<!ATTLIST dvd id CDATA #REQUIRED>
